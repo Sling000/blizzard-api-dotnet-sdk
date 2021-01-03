@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98093F2C-4DE
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4A524F7C-4C03-48C9-85DC-1EF3951DF2F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blizzard.Sdk.Tests", "test\Blizzard.Sdk.Tests\Blizzard.Sdk.Tests.csproj", "{87E250C0-68F6-435C-BB1F-53BED82D27B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,12 +30,17 @@ Global
 		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E250C0-68F6-435C-BB1F-53BED82D27B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E250C0-68F6-435C-BB1F-53BED82D27B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E250C0-68F6-435C-BB1F-53BED82D27B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E250C0-68F6-435C-BB1F-53BED82D27B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005} = {98093F2C-4DEF-415A-A817-853025D3E8BB}
+		{87E250C0-68F6-435C-BB1F-53BED82D27B0} = {4A524F7C-4C03-48C9-85DC-1EF3951DF2F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD614D5B-2367-4968-86CB-F18B390EA857}
