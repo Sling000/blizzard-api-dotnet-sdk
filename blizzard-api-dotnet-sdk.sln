@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blizzard.Sdk", "src\Blizzard.Sdk\Blizzard.Sdk.csproj", "{3CCDBA65-A193-4BE0-B43D-8E898A6A4005}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{F264AD1E-9E24-4BD8-864B-9384E41AE794}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98093F2C-4DEF-415A-A817-853025D3E8BB}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CCDBA65-A193-4BE0-B43D-8E898A6A4005} = {98093F2C-4DEF-415A-A817-853025D3E8BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD614D5B-2367-4968-86CB-F18B390EA857}
+	EndGlobalSection
+EndGlobal
