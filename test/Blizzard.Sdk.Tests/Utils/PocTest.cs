@@ -14,11 +14,7 @@ namespace Blizzard.Sdk.Tests.Utils
         [Fact]
         public async Task Test()
         {
-            var clientOptions = new BlizzardClientOptions
-            {
-                ClientId = "",
-                Secret = "",
-            };
+            var clientOptions = ConfigManager.ClientOptions;
 
             var cachedTokenProvider = new CachedAccessTokenProvider(new HttpClient(), new OptionsWrapper<BlizzardClientOptions>(clientOptions));
 

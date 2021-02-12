@@ -9,6 +9,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    environment: Build
+
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
